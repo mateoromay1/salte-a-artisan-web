@@ -45,7 +45,7 @@ const MenuSection = ({ title = "Nuestro Menú", subtitle, items }: Props) => {
                         <h4 className="font-display text-lg font-semibold text-foreground">{item.name}</h4>
                         {item.description && <p className="text-muted-foreground text-sm font-body">{item.description}</p>}
                       </div>
-                      <span className="font-display text-lg font-bold text-accent whitespace-nowrap">Bs. {item.price}</span>
+                      <span className="font-display text-lg font-bold text-accent whitespace-nowrap">S/ {item.price.toFixed(2)}</span>
                     </div>
                   ))}
                 </div>
@@ -62,7 +62,7 @@ const MenuSection = ({ title = "Nuestro Menú", subtitle, items }: Props) => {
                         <h4 className="font-display text-lg font-semibold text-foreground">{item.name}</h4>
                         {item.description && <p className="text-muted-foreground text-sm font-body">{item.description}</p>}
                       </div>
-                      <span className="font-display text-lg font-bold text-accent whitespace-nowrap">Bs. {item.price}</span>
+                      <span className="font-display text-lg font-bold text-accent whitespace-nowrap">S/ {item.price.toFixed(2)}</span>
                     </div>
                   ))}
                 </div>
