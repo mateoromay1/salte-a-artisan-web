@@ -1,0 +1,1 @@
+UPDATE public.site_content SET description = 'Somos dos mellizos que quieren traer el más auténtico sabor de las salteñas bolivianas al Perú, para que disfrutes de los sabores que una empanada tradicional jamás te dará.', updated_at = now() WHERE section = 'about';
