@@ -2,7 +2,6 @@ import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import MenuSection from "@/components/MenuSection";
 import AboutSection from "@/components/AboutSection";
-import InfoSection from "@/components/InfoSection";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import AIChatbot from "@/components/AIChatbot";
@@ -30,7 +29,6 @@ const Index = () => {
         title={content?.about?.title}
         description={content?.about?.description}
       />
-      <InfoSection settings={settings || {}} />
       <Footer name={settings?.restaurant_name} />
       <WhatsAppButton number={settings?.whatsapp_number} message={settings?.whatsapp_message} />
       <AIChatbot />
